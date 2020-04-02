@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahee</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+    <section class="main">
+        <header class="main__header" id="main__header">
+            <div class="container">
+                <nav class="main__navigation">
+                    <a href="#" class="main__logo">Cahee</a>
+                    <ul class="main__menu">
+                        <li class="menu__item"><a href="#header" class="menu__link menu__link--active">Home</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+                        <li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
+                        <li class="menu__item"><a href="#gallery" class="menu__link">Gallery</a></li>
+                        <li class="menu__item"><a href="#block" class="menu__link">Blog</a></li>
+                        <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="row">
+                    <div class="col-4 info-box">
+                        <h1 class="info-box__title">Fresh Life</h1>
+                        <p class="info-box__desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim
+                            ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        <a href="#" class="info-box__button">Get free now</a>
+                    </div>
+                    <a href="#about" class="scroll-down">
+                        <svg class="icon">
+                            <use xlink:href="img/icons-sprite.svg#scroll"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row about__row">
+                <div class="offset-7 col-5 about__block">
+                    <h1 class="about__title">About Us</h1>
+                    <p class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum.</p>
+                    <p class="about__text">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        inventore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row services__row">
+                <div class="col-6 services__block">
+                    <button class="services__button">
+                        <h2 class="services__button-title">Online Shopping</h2>
+                        <div class="services__icons">
+                            <svg>
+                                <use xlink:href="img/icons-sprite.svg#basket"></use>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="services__button">
+                        <h2 class="services__button-title">Quality Product</h2>
+                        <div class="services__icons"><svg>
+                                <use xlink:href="img/icons-sprite.svg#hand"></use>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="services__button">
+                        <h2 class="services__button-title">Domestic & International Delivery</h2>
+                        <div class="services__icons"><svg>
+                                <use xlink:href="img/icons-sprite.svg#earth"></use>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="services__button">
+                        <h2 class="services__button-title">Well Organized</h2>
+                        <div class="services__icons"><svg>
+                                <use xlink:href="img/icons-sprite.svg#carrot"></use>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+                <h1 class="services__title">Our Services</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__text">
+                <h1 class="gallery__title">Gallery</h1>
+                <p class="gallery__desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="row gallery__row">
+                <div class="col-8">
+                    <img class="gallery__img-1" src="img/gallery/1.jpg" alt="gallery-img">
+                </div>
+                <div class="col-4">
+                    <img class="gallery__img-2" src="img/gallery/2.jpg" alt="gallery-img">
+                    <img class="gallery__img-3" src="img/gallery/3.jpg" alt="gallery-img">
+                </div>
+            </div>
+            <div class="row gallery__row">
+                <div class="col-6">
+                    <img class="gallery__img-4" src="img/gallery/4.jpg" alt="gallery-img">
+                </div>
+                <div class="col-6">
+                    <img class="gallery__img-5" src="img/gallery/5.jpg" alt="gallery-img">
+                </div>
+            </div>
+            <div class="gallery__more">
+                <button class="gallery__button">View More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+        <div class="container">
+            <div class="row subscribe__row">
+                <div class="col-7 subscribe__block">
+                    <h1 class="subscribe__title">Subscribe To Us</h1>
+                    <p class="subscribe__desc">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <form action="#" class="subscribe__form">
+                        <input type="email" class="subscribe__form-input" placeholder="Your email address...">
+                        <input type="submit" class="subscribe__form-button" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <header class="blog__header">
+            <h1>Blog</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta laudantium omnis voluptatum vel id est!
+            </p>
+        </header>
+        <div class="blog__content">
+            <div class="blog__articles">
+                <div class="blog__post">
+                    <article class="post__article">
+                        <a class="post__link" href="#">
+                            <div>
+                                <img src="img/blog/1.jpg" alt="post-pic-1" class="post-pic">
+                            </div>
+                            <div class="post__header">
+                                <div class="post__date">
+                                    <span>20</span>
+                                    <span>nov</span>
+                                </div>
+                                <h2 class="post__header-title">Green Smoothies: Too Much of a Good Thing?</h2>
+                                <div class="post__header-author">
+                                    <p>By Auskteez - 2 hours ago</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="blog__post">
+                    <article class="post__article">
+                        <a class="post__link" href="#">
+                            <div>
+                                <img src="img/blog/2.jpg" alt="post-pic-2" class="post-pic">
+                            </div>
+                            <div class="post__header">
+                                <div class="post__date">
+                                    <span>14</span>
+                                    <span>nov</span>
+                                </div>
+                                <h2 class="post__header-title">Growing Food and a "Thirst" for Innovation</h2>
+                                <div class="post__header-author">
+                                    <p>By Auskteez - 3 hours ago</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="blog__post">
+                    <article class="post__article">
+                        <a class="post__link" href="#">
+                            <div>
+                                <img src="img/blog/3.jpg" alt="post-pic-3" class="post-pic">
+                            </div>
+                            <div class="post__header">
+                                <div class="post__date">
+                                    <span>10</span>
+                                    <span>nov</span>
+                                </div>
+                                <h2 class="post__header-title">Pesticides & Food: What You Need to Know</h2>
+                                <div class="post__header-author">
+                                    <p>By Auskteez - 6 hours ago</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="blog__view">
+            <input type="button" value="view more" class="blog__button">
+        </div>
+    </section>
+
+    <section class="contact">
+        <header>
+            <h1 class="contact__title">Contact</h1>
+            <p>For new projects, ideas, business or anything <br />
+                you'd like to discuss, contact with me!</p>
+        </header>
+        <div class="contact__block">
+            <div class="form">
+                <form action="#" class="contact__form">
+                    <input type="text" placeholder="Your name...">
+                    <input type="email" placeholder="Your email...">
+                    <input type="tel" placeholder="Your phone number...">
+                    <textarea></textarea>
+                </form>
+            </div>
+            <div class="contact__info">
+                <ul>
+                    <li>
+                        <div class="title">ADDRESS</div>
+                        <div class="value">123 City name, Street, City, Country</div>
+                    </li>
+                    <li>
+                        <div class="title">EMAIL</div>
+                        <div class="value"><a href="mailto:cahee@domain.com">cahee@domain.com</a></div>
+                    </li>
+                    <li>
+                        <div class="title">PHONE</div>
+                        <div class="value"><a href="tel:+012 345 6789">+012 345 6789</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__row">
+                <p class="footer__copyright"> &copy; 2015 Company. All rights reserved</p>
+                <a href="#" class="logo logo--footer">Cahee</a>
+                <p class="footer__author">Made with <span class="text-red text-bold">love</span> by Auskteez</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
