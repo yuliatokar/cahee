@@ -524,6 +524,10 @@ textarea:focus, .contact__form input:focus {
     opacity: 100;
 }
 
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
 .contact__block {
     display: flex;
     flex-direction: row;
